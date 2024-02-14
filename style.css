@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+}
+#container{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: auto 10px;
+}
+video{
+    width: 100%;
+}
+.bar{
+    height: 7px;
+    background-color: white;
+    margin: 20px 0;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+}
+i{
+    font-size: 20px;
+    color: yellow;
+}
+.active-bar{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.bubble{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: red;
+    position:relative;
+    transition: 0.2s;
+}
+.bubble:hover{
+    transform: scale(2);
+    background-color: blue;
+}
+#volume{
+    display: flex;
+}
+#volume > input{
+    width: 80px;
+}

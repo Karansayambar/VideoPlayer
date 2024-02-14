@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>VideoPlayer</title>
+</head>
+
+<body>
+    <div id="container">
+        <video src="./assets/Gen-2 12s, 1369504921, M 10.mp4"></video>
+        <div class="options">
+            <div class="actions">
+                <i id="play" class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                <i id="backward" class="fa-solid fa-circle-chevron-left"></i>
+                <i id="forward" class="fa-solid fa-circle-chevron-right"></i>
+               <div id="volume">
+                <i class="fa-solid fa-volume-high"></i>
+                <input name="volume" class="volume" type="range">
+               </div>
+            </div>
+            <div class="bar">
+                <div class="active-bar"></div>
+                <div class="bubble"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
